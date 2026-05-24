@@ -1,6 +1,6 @@
 # Mini-Projet XML / XQuery — L3 ISIL
 **Réalisé par :** Wissal Bouakaz G1
-                  Bouakkaz Amina G1
+                 & Bouakkaz Amina G1
 
 
 ## Description
