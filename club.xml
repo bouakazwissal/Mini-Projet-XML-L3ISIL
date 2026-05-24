@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<club nom="Info_Tech" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="club.xsd">
+                 
+                 
+                 <!--categories-->
+  <categories>
+    <categorie id="C1" libelle="Intelligence Artificielle"/>
+    <categorie id="C2" libelle="Développement Web"/>
+    <categorie id="C3" libelle="Sécurité Informatique"/>
+  </categories>
+  
+                    <!--membres-->
+<membres>
+    <membre id="M001" categorieRef="C1">
+      <nom>Bouakaz</nom>
+      <prenom>Wissal</prenom>
+      <email>wissal@club.dz</email>
+    </membre>
+    <membre id="M002" categorieRef="C2">
+      <nom>Khelif</nom>
+      <prenom>Sara</prenom>
+      <email>s.khelif@club.dz</email>
+    </membre>
+    <membre id="M003" categorieRef="C3">
+      <nom>Bouakkaz</nom>
+      <prenom>Amina</prenom>
+      <email>amina@club.dz</email>
+    </membre>
+    <membre id="M004" categorieRef="C3">
+      <nom>Zair</nom>
+      <prenom>Nada</prenom>
+      <email>z.nada@club.dz</email>
+    </membre>
+    <membre id="M005" categorieRef="C2">
+      <nom>Bou</nom>
+      <prenom>Salsabil</prenom>
+      <email>s.salsabil@club.dz</email>
+    </membre>
+    <membre id="M006" categorieRef="C2">
+      <nom>Bouakaz</nom>
+      <prenom>Akram</prenom>
+      <email>Akram.bkz@club.dz</email>
+    </membre>
+     <membre id="M007" categorieRef="C1">
+      <nom>Bouakkaz</nom>
+      <prenom>Adelbaki</prenom>
+      <email>A.baki@club.dz</email>
+    </membre>
+     <membre id="M008" categorieRef="C1">
+      <nom>Mohamed</nom>
+      <prenom>Mohamed</prenom>
+      <email>mohamed@club.dz</email>
+    </membre>
+    <membre id="M009" categorieRef="C3">
+      <nom>Ahmed</nom>
+      <prenom>Ali</prenom>
+      <email>A.ahmed@club.dz</email>
+    </membre>
+<membre id="M0010" categorieRef="C2">
+      <nom>Bali</nom>
+      <prenom>Nour</prenom>
+      <email>nour.nour@club.dz</email>
+    </membre>
+      </membres>
+
+
+ <!--concours-->
+
+ <concours>
+    <concours id="CO1" categorieRef="C1" date="2025-03-15" coefficient="1.5">
+      <titre>Concours IA 2025</titre>
+      <participants>
+        <participant membreRef="M001"><complexite>85</complexite><tempsExecution>120</tempsExecution></participant>
+        <participant membreRef="M007"><complexite>75</complexite><tempsExecution>150</tempsExecution></participant>
+        <participant membreRef="M008"><complexite>90</complexite><tempsExecution>110</tempsExecution></participant>
+      </participants>
+        </concours>
+ <concours id="CO2" categorieRef="C2" date="2025-04-10" coefficient="1.2">
+      <titre>web development Challenge</titre>
+      <participants>
+        <participant membreRef="M002"><complexite>80</complexite><tempsExecution>200</tempsExecution></participant>
+        <participant membreRef="M005"><complexite>88</complexite><tempsExecution>180</tempsExecution></participant>
+        <participant membreRef="M006"><complexite>70</complexite><tempsExecution>220</tempsExecution></participant>
+        <participant membreRef="M0010"><complexite>75</complexite><tempsExecution>210</tempsExecution></participant>
+      </participants>
+    </concours>
+
+    <concours id="CO3" categorieRef="C3" date="2025-05-20" coefficient="2.0">
+      <titre>Cyber Security Night</titre>
+      <participants>
+        <participant membreRef="M003"><complexite>95</complexite><tempsExecution>300</tempsExecution></participant>
+        <participant membreRef="M004"><complexite>85</complexite><tempsExecution>350</tempsExecution></participant>
+        <participant membreRef="M009"><complexite>80</complexite><tempsExecution>400</tempsExecution></participant>
+      </participants>
+    </concours>
+  </concours>
+</club>
